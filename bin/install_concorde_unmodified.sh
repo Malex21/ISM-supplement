@@ -71,7 +71,6 @@ case "${OS}:${ARCH}" in
   Linux:x86_64)
     QSOPT_A_URL="https://www.math.uwaterloo.ca/~bico/qsopt/beta/codes/PIC/qsopt.PIC.a"
     QSOPT_H_URL="https://www.math.uwaterloo.ca/~bico/qsopt/beta/codes/PIC/qsopt.h"
-    CONFIGURE_EXTRA=(--host=x86_64-pc-linux-gnu)
     ;;
   *)
     echo "Unsupported platform: ${OS} ${ARCH}" >&2
